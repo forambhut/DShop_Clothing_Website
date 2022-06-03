@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+        <!--font family-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Ribeye+Marrow">   
+        <link rel="stylesheet" href="css/style.css">
+
+        <title>Login Page</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row content">
+              <div class="col-md-7 col-12 login-lhs pl-5 order-md-0 order-1">
+                <h3 class="login-text mb-5">Login</h3>
+                <form method="POST" action="../DShop/shop.html">
+                  <div class="form-group">
+                    <label for="email">Email or Phone Number</label>
+                    <input type="email" name="email" class="form-control" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="password">Password</label>
+                    <div class="input-group">
+                      <input type="password" name="password" class="form-control" id="password" required>
+                      <div class="input-group-addon">
+                        <i class="fa fa-eye-slash" id="togglePassword"></i>
+                      </div>
+                    </div>
+                   
+                  </div>
+                  <div class="form-group">
+                   <label for="forgot"><a href="#">Forgot Password?</a></label>
+                  </div>
+                  <button class="btn login mt-5">Log in</button>
+                </form>
+              </div>
+
+              <div class="col-md-5 col-12 order-md-1 order-0 login-rhs text-md-left text-center px-4">
+                  <h3 class="mb-5 text-center">Welcome Back!</h3>
+                  <p>Enjoy the best shopping experience
+                    on D-SHOP by making an account.</p>
+                    
+                    <p>Make one for free. Don’t have an account?</p>
+                    <button class="btn signup mt-3" onclick="document.location='../SignUp/signup.html'">Sign Up</button>
+                    <div class="logo mt-5 pt-4">
+                        <h1>D<span>Shop</span></h1>
+                    </div>
+              </div>
+
+            </div>
+        </div>
+        <script src="js/app.js"></script>
+    </body>
+</html>

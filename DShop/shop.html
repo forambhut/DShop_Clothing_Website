@@ -1,0 +1,451 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js"></script>
+    <!--font family-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ribeye+Marrow|Raleway|Nunito|Roboto|Bebas+Neue|Numans|Odor+Mean+Chey|Bellefair|Belleza|Qwigley|Baumans">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+  
+    <script>
+      $(document).ready(function(){
+      
+          $(".top-rated").click(function(){
+              $(".group-19").hide();
+              $(".group-20, .group-18").show();
+          });
+  
+          $(".on-sale").click(function(){
+              $(".group-18, .group-20").hide();
+              $(".group-19").show();
+          });
+  
+          $(".Feature").click(function(){
+              $(".group-18, .group-19, .group-20").show();
+  
+          });
+            const heart = document.getElementById('heart');
+            heart.addEventListener('click', function() {
+            heart.classList.toggle('red');
+          });
+      });
+      </script> 
+
+    <title>Dshop</title>
+  </head>
+  <body>
+    <div class="header">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light align-content-start">
+        <div class="container">
+            <div class="toggle-button">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+      
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                  <li class="nav-item active">
+                    <a class="nav-link home" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link header_nav" href="#sale">Product</a>
+                  </li> 
+                  <li class="nav-item">
+                      <a class="nav-link header_nav" href="#footer">Contact Us</a>
+                    </li>
+                  <li class="nav-item">
+                      <a class="nav-link header_nav" href="#about">About Us</a>
+                    </li>
+                </ul>
+              </div>
+            </div>
+            <div class="mr-auto ml-auto">
+              <a class="navbar-brand logo" href="#"><span>D</span>Shop</a> 
+            </div>
+            <form class="d-flex my-2 my-lg-0 input-icons">
+                <i class="fa fa-search search-icon pt-2"></i>
+                <input class="form-control mr-sm-2" type="search" placeholder="" aria-label="Search">
+                <div class="vector-1 pt-1">|</div>
+                <i class="fa fa-shopping-bag shopping-bag pt-2"></i>
+                <i class="fa fa-circle ellipse"></i>
+                <div class="one">1</div>
+            </form>
+            <div class="ml-auto dharmik">Dharmik <i class="fa fa-user-circle fa-lg"></i></div>        
+        </div>
+      </nav>
+
+
+      <section class="main">
+
+        <div class="container  py-5">
+            <div class="row d-flex align-items-center text-md-left text-center pt-md-5 pt-0">
+                <div class="col-md-6 col-12 main_content order-md-0 order-1 pt-md-0 pt-5 mt-md-0 mt-5">
+                    <h3>
+                        Get 50% <br> offer now
+                    </h3>
+                    <p>One year pieces to pieces guarantee, if you are not if you are not satisfy 100% mony back guarantee.</p>
+                    <a href="#">Buy Now</a>
+                </div>
+
+                <div class="col-md-6 col-12  men_img  text-md-center text-center order-md-1 order-0">
+                    <img src="images/PngItem.png" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+
+    </section>
+    </div>
+    
+    <!--** header part ends ** -->
+    
+    <section class="category">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-lg-3 col-12 d-flex justify-content-center text-center pt-lg-3 pt-0">
+            <div class="product rect1">
+              <img src="images/image-3.png" alt="">
+              <h3>Masks</h3>
+              <p>$ 1999 - <span class="txt2999">$ 2999</span></p>
+              <span class="sold">Sold : 351</span>
+              <span class="available">Available : 500</span>
+              <div class="progress">
+                <div class="progress-bar w-75" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-9 col-12 features py-lg-0 py-5">
+            <div class="row px-5">
+              <div class="col-md-1 col-1">
+                <i class="fa fa-sliders slider_1" onclick="myFunction()"></i>
+              </div>
+              <div class="col-md-4 col-3 pt-1">
+                <h2 class="featured">Featured</h2>
+                <div class="Frame-1" id="frame-1">
+                  <ul>
+                    <li class="Feature">Featured</li>
+                    <li class="top-rated">Top rated</li>
+                    <li class="on-sale">On Sale</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="offset-md-5 col-md-2 col-6 offset-1 text-center">
+                <i class="fa fa-angle-left fa-lg arrows" onclick="plusDivs(-1)"></i>
+                <i class="fa fa-angle-right fa-lg arrows" onclick="plusDivs(1)"></i>
+              </div>
+            </div>
+
+            <div class="row py-4 px-4 feature_black ml-lg-5 ml-0">
+              <div class="col-lg-4 pb-5 pb-lg-3 group-18 mySlides">
+                <div class="product text-center">
+                  <i class="fa fa-plus-circle fa-lg plus-icon"></i>
+                  <i class="fa fa-heart-o fa-lg heart-icon"></i>
+                  <img src="images/image-2.png" alt="">
+                  <h3>Casual Shirt</h3>
+                  <p>$ 1999 - <span class="txt2999">$ 2999</span></p>
+                  <a href="checkout.html">Add to Cart</a>
+                </div>
+              </div>
+
+              <div class="col-lg-4 pb-lg-3 pb-5 group-19 mySlides">
+                <div class="product text-center">
+                  <i class="fa fa-plus-circle fa-lg plus-icon"></i>
+                  <i class="fa fa-heart-o fa-lg heart-icon"></i>
+                  <img src="images/image-4.png" alt="">
+                  <h3>Casual Shirt</h3>
+                  <p>$ 1999 - <span class="txt2999">$ 2999</span></p>
+                  <a href="checkout.html">Add to Cart</a>
+                </div>
+              </div>
+
+              <div class="col-lg-4 pb-lg-3 pb-5 group-20 mySlides">
+                <div class="product text-center">
+                  <i class="fa fa-plus-circle fa-lg plus-icon"></i>
+                  <i class="fa fa-heart-o fa-lg heart-icon"></i>
+                  <img src="images/image-5.png" alt="">
+                  <h3>Casual Shirt</h3>
+                  <p>$ 1999 - <span class="txt2999">$ 2999</span></p>
+                  <a href="checkout.html">Add to Cart</a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+ <!-- Feature complete -->
+
+ <section class="sale" id="sale">
+  <div class="container pt-lg-5 pt-2">
+    <div class="row section-head">
+      <div class="offset-md-3 col-md-5 col-12 text-center">
+        <h2>Shop</h2>
+      </div>
+      <div class="col-md-2 pt-lg-3 col-6 pt-3">
+        <h5>Showing 1-12 of 36 results</h5>
+      </div>
+      
+      <div class="col-md-2 col-6">
+        <select>
+          <option>Default Sorting</option>
+          <option>Sort By Name</option>
+          <option>Sort By Price</option>
+          <option>Sort By Popularity</option>
+          <option>Sort by Sale</option>
+        </select>
+      </div>
+    
+    </div>
+
+    <div class="row pt-5">
+      <div class="col-lg-3 col-md-6 col-12 py-5 pr-2 d-flex justify-content-center">
+        <div class="shop-post rect2">
+          <img src="images/image-4.png" alt="">
+          <div class="label">
+          <h3>Casual Shirt
+          <span><i class="fa fa-heart fa-lg" id="heart"></i></span></h3>
+          <div class="circles">
+              <i class="fa fa-circle black"></i>
+              <i class="fa fa-circle yellow"></i>
+              <i class="fa fa-circle blue"></i>
+              <i class="fa fa-circle green"></i>
+          </div>
+          <p>$ 1999 - <span class="txt2999">$ 2999</span></p>
+          <div class="add-to-cart">
+            <a href="checkout.html">Add to Cart</a>
+          </div>
+          </div>
+        </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-12 py-5 pr-2 d-flex justify-content-center">
+          <div class="shop-post rect2">
+            <img src="images/image-4.png" alt="">
+            <div class="label">
+            <h3>Casual Shirt
+            <span><i class="fa fa-heart fa-lg" id="heart"></i></span></h3>
+            <div class="circles">
+                <i class="fa fa-circle black"></i>
+                <i class="fa fa-circle yellow"></i>
+                <i class="fa fa-circle blue"></i>
+                <i class="fa fa-circle green"></i>
+            </div>
+            <p>$ 1999 - <span class="txt2999">$ 2999</span></p>
+            <div class="add-to-cart">
+              <a href="checkout.html">Add to Cart</a>
+            </div>
+            </div>
+          </div>
+        </div>
+
+          <div class="col-lg-3 col-md-6 col-12 py-5 pr-2 d-flex justify-content-center">
+            <div class="shop-post rect2">
+              <img src="images/image-4.png" alt="">
+              <div class="label">
+              <h3>Casual Shirt
+              <span><i class="fa fa-heart fa-lg" id="heart"></i></span></h3>
+              <div class="circles">
+                  <i class="fa fa-circle black"></i>
+                  <i class="fa fa-circle yellow"></i>
+                  <i class="fa fa-circle blue"></i>
+                  <i class="fa fa-circle green"></i>
+              </div>
+              <p>$ 1999 - <span class="txt2999">$ 2999</span></p>
+              <div class="add-to-cart">
+                <a href="checkout.html">Add to Cart</a>
+              </div>
+              </div>
+            </div>
+          </div>
+
+            <div class="col-lg-3 col-md-6 col-12 py-5 pr-2 d-flex justify-content-center">
+              <div class="shop-post rect2">
+                <img src="images/image-4.png" alt="">
+                <div class="label">
+                <h3>Casual Shirt
+                <span><i class="fa fa-heart fa-lg" id="heart"></i></span></h3>
+                <div class="circles">
+                    <i class="fa fa-circle black"></i>
+                    <i class="fa fa-circle yellow"></i>
+                    <i class="fa fa-circle blue"></i>
+                    <i class="fa fa-circle green"></i>
+                </div>
+                <p>$ 1999 - <span class="txt2999">$ 2999</span></p>
+                <div class="add-to-cart">
+                  <a href="checkout.html">Add to Cart</a>
+                </div>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <div class="row pt-5">
+          <div class="col-lg-3 col-md-6 py-5 d-flex justify-content-center">
+            <div class="shop-post rect2">
+              <img src="images/image-4.png" alt="">
+              <div class="label">
+              <h3>Casual Shirt
+              <span><i class="fa fa-heart fa-lg" id="heart"></i></span></h3>
+              <div class="circles">
+                  <i class="fa fa-circle black"></i>
+                  <i class="fa fa-circle yellow"></i>
+                  <i class="fa fa-circle blue"></i>
+                  <i class="fa fa-circle green"></i>
+              </div>
+              <p>$ 1999 - <span class="txt2999">$ 2999</span></p>
+              <div class="add-to-cart">
+                <a href="checkout.html">Add to Cart</a>
+              </div>
+              </div>
+            </div>
+          </div>
+          
+            <div class="col-lg-3 col-md-6 py-5 d-flex justify-content-center">
+              <div class="shop-post rect2">
+                <img src="images/image-4.png" alt="">
+                <div class="label">
+                <h3>Casual Shirt
+                <span><i class="fa fa-heart fa-lg" id="heart"></i></span></h3>
+                <div class="circles">
+                    <i class="fa fa-circle black"></i>
+                    <i class="fa fa-circle yellow"></i>
+                    <i class="fa fa-circle blue"></i>
+                    <i class="fa fa-circle green"></i>
+                </div>
+                <p>$ 1999 - <span class="txt2999">$ 2999</span></p>
+                <div class="add-to-cart">
+                  <a href="checkout.html">Add to Cart</a>
+                </div>
+                </div>
+              </div>
+            </div>
+              <div class="col-lg-3 col-md-6 py-5 d-flex justify-content-center">
+                <div class="shop-post rect2">
+                  <img src="images/image-4.png" alt="">
+                  <div class="label">
+                  <h3>Casual Shirt
+                  <span><i class="fa fa-heart fa-lg" id="heart"></i></span></h3>
+                  <div class="circles">
+                      <i class="fa fa-circle black"></i>
+                      <i class="fa fa-circle yellow"></i>
+                      <i class="fa fa-circle blue"></i>
+                      <i class="fa fa-circle green"></i>
+                  </div>
+                  <p>$ 1999 - <span class="txt2999">$ 2999</span></p>
+                  <div class="add-to-cart">
+                    <a href="checkout.html">Add to Cart</a>
+                  </div>
+                  </div>
+                </div>
+              </div>
+
+                <div class="col-lg-3 col-md-6 py-5 d-flex justify-content-center">
+                  <div class="shop-post rect2">
+                    <img src="images/image-4.png" alt="">
+                    <div class="label">
+                    <h3>Casual Shirt
+                    <span><i class="fa fa-heart fa-lg" id="heart"></i></span></h3>
+                    <div class="circles">
+                        <i class="fa fa-circle black"></i>
+                        <i class="fa fa-circle yellow"></i>
+                        <i class="fa fa-circle blue"></i>
+                        <i class="fa fa-circle green"></i>
+                    </div>
+                    <p>$ 1999 - <span class="txt2999">$ 2999</span></p>
+                    <div class="add-to-cart">
+                      <a href="checkout.html">Add to Cart</a>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+          </div>
+  </div>
+ </section> 
+
+  <!-- About page -->
+<section class="about" id="about">
+  <div class="container pt-md-5 pt-0">
+    <div class="row">
+      <div class="col-md-12 text-md-left text-center">
+        <h2>About Ak Shop</h2>
+      </div>
+      <div class="col-md-5 col-12 pt-4">
+        <p>jkfsldkfjg jf a;i opiajs ;m ;ksdlkf m;lkjsd k;l, ;ojd  k; hdgfk iuhsljdfhsdjfhlks;flk ma;sdu f[oapsdf;la sdpfoja sdlmf jpo sdijfhlasdkjf  sdof7 nssdl 8sdfas dlkju ssl 000 00 ckas e7r23jrnlk jdshfiuhasdifha enfasdnfjsd jp iidis ii osiodfp oipa iu8ewjfberofydv aemn 87usdf mglkeru0 sdf lkjsdflgj dv ,xmcnvpidy 98e4tm3w poaedn pvidjfo34jfdf d lkjfghlsd
+        </p><br><p>jhgpuud f0 lsdjhfo bejf pa9eu dnsaldk asdjp98 sdlmf jpo sdijfhlasdkjf  sdof7 nssdl 8sdfas dlkju ssl 000 00 ckas e7r23jrnlk jdshfiuhasdifha enfasdnfjsd jp iidis ii osiodfp oipa iu8ewjfberofydv aemn 87usdf mglkeru0 sdf lkjsdflgj dv ,xm
+         </p> <br><p>poaedn pvidjfo34jfdf d lkjfghlsdjhgpuud f0 lsdjhfo bejf pa9eu dnsaldk asdjp98 sdlmf jpo sdijfhlasdkjf  sdof7 nssdl 8sdfas dlkju ssl 000 00 ckas e7r23jrnlk jdshfiuhasdifha enfasdnfjsd jp iidis ii osiodfp oipa iu8ewjfberofydv aemn 87usdf mglkeru0 sdf lkjsdflgj dv ,xmcn##</p>
+        </div>
+      <div class="col-md-7 col-12 d-flex justify-content-center text-sm-center">
+        <h1>A<span>k</span></h1>
+      </div>
+    </div>
+  </div>
+</section>
+
+        <!-- Footer -->
+    <section class="footer py-5" id="footer">
+        <div class="container">
+          <div class="row pb-4">
+            <div class="col-md-12 Line-1"></div>
+          </div>
+          <div class="row">
+            <div class="col-md-2 px-md-5 py-2 col-12 text-center">
+              <div class="footer-widget">
+                <h2>D<span>Shop</span></h2>
+              </div>
+            </div>
+
+            <div class="offset-md-2 col-md-2 col-6 offset-0">
+              <div class="footer-widget">
+                <h4>Company</h4>
+                <ul>
+                  <li><a href="">Delievery</a></li>
+                  <li><a href="">Collection</a></li>
+                  <li><a href="">Returns</a></li>
+                  <li><a href="">Account</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-md-2 col-6">
+              <div class="footer-widget">
+                <h4>Follow</h4>
+                <ul>
+                  <li><a href="">Facebook</a></li>
+                  <li><a href="">Instagram</a></li>
+                  <li><a href="">Pinterest</a></li>
+                  <li><a href="">Youtube</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-md-3 py-4 py-md-0">
+              <div class="footer-widget">
+                <h3>Get 15% off on your first order by subscribeing</h3>
+                <input type="email" placeholder="Email">
+                <span><a href="thankyou.html"><i class="fa fa-long-arrow-right"></i></a></span>
+                <div class="col-md-12 col-sm-6 line2"></div>
+                <h5>Design by Atik Gohel for "Skyolane"</h5>
+              </div>
+            </div>
+
+          </div>
+        </div>
+    </section>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  
+  </body>
+</html>

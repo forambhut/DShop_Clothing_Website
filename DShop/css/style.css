@@ -1,0 +1,532 @@
+
+.header {
+    background: url(../images/image-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.home {
+    color: #FF6B00;
+    text-transform: uppercase; 
+    font-family: Raleway;
+    font-size: 1rem;
+}
+
+.header_nav{
+    color: #000000;
+    text-transform: uppercase; 
+    font-family: Raleway;
+    font-size: 1rem;
+}
+
+.logo{
+    color: #000000;
+    font-family: Ribeye Marrow;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+.logo span{
+    color: #FF6B00;
+    font-size: 2rem;
+}
+.dharmik{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.8rem;
+    line-height: 13px;
+    text-transform: uppercase;
+    color: #000000;
+    
+}
+.main .main_content h3 {
+    font-size: 4rem;
+    font-family: Bebas Neue;
+    line-height: 50px;
+}
+
+.ellipse{
+    color: #FF6B00;
+    position: relative;
+    top: -12px;
+    left:-35px;
+}
+.one{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 9px;
+    line-height: 12px;
+    text-transform: uppercase;
+    position: relative;
+    color: #FFFFFF;
+    top:-10px;
+    left:-45px;
+}
+
+input[type=search]
+{
+    border-radius: 8px;
+    background: #FFFFFF;
+    box-shadow: -5px -5px 10px rgba(241, 241, 241, 0.5), 5px 5px 10px rgba(239, 239, 239, 0.5), -10px -10px 20px rgba(255, 255, 255, 0.25), 10px 10px 20px #F2F2F2;
+    border: none;
+    text-align: center;
+}
+.search-icon{
+    position: relative;
+    left: 30px;
+    border: none;
+}
+.vector-1{
+    left:-60px;
+    position: relative;
+}
+.shopping-bag {
+   position: relative;
+   left:-50px;
+}
+.main .main_content p {
+    color: #000000;
+    padding-top: 10px;
+    font-size: 1.2rem;
+    font-family: Roboto;
+    padding-bottom: 10px;
+}
+
+.main .main_content a {
+    text-decoration: none;
+    color: #FFFFFF;
+    background: #FF6B00;
+    border-radius: 10px;
+    padding: 8px 15px 8px 15px;
+    font-family: Bebas Neue;
+    font-size: 1.2rem;
+}
+
+.main .men_img img {
+    width: 90%;
+    height: auto;
+}
+
+/* */
+.product img{
+    border-radius: 30px 30px 0px 0px;
+}
+.product h3{
+    font-family: Numans;
+    font-size: 1.1rem;
+    line-height: 1.4;
+    text-transform: uppercase;
+    color: black;
+    padding-top: 10px;
+}
+
+.product p{
+    font-family: Odor Mean Chey;
+    line-height: 33px;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+}
+
+.product p span, .txt2999{
+    text-decoration: line-through;
+}
+.rect1{
+    height: 528px;
+    width: 330px;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
+}
+.progress{
+    width:85%;
+    border-radius: 30px;
+    transform: translateX(8%);
+    height: 10px;
+}
+.sold{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000; 
+}
+.available{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.features{
+    padding-left: 70px;
+}
+.slider_1{
+    color: #FFFFFF;
+    background: #000000;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 5px 8px 7px 8px;
+}
+#frame-1 ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#frame-1 ul li{
+    cursor: pointer;
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 19px;
+    display: inline-block;
+    align-items: center;
+    text-transform: uppercase;
+    color: #000000;
+    
+}
+#frame-1{
+    background: #F7F7F7 ;
+    border-radius: 14px;
+    top: -30px;
+    left:-3px;
+    position: relative;
+    display: none;
+    padding: 5px;
+}
+.features h2{
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+.arrows{
+    cursor: pointer;
+    color: #FFFFFF;
+    background: #FF6B00;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    padding: 4px 8px 4px 8px;
+}
+
+.feature_black{
+    background: #1C1C1C;
+    border-radius: 30px 0px 0px 30px;
+    width: 100%;
+}
+.features .product h3{
+    font-family: Numans;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    color:#FFFFFF;
+}
+.features .product p{
+    font-family: Odor Mean Chey;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.product a {
+    text-decoration: none;
+    color: #FFFFFF;
+    background: #FF6B00;
+    border-radius: 10px;
+    padding: 8px 15px 8px 15px;
+    font-family: Bebas Neue;
+    font-size: 1.2rem;
+}
+.heart-icon{
+    color: #FF6B00;
+    position: relative;
+    top: 300px;
+    left: 41%;
+}
+.plus-icon{
+    color: #FF6B00;
+    position: relative;
+    left: 55%;
+    top: 22px;
+}
+
+/* Shop */
+.section-head h2{
+    color: #000;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-family: Baumans;
+    font-size: 3.2rem;
+    letter-spacing: 0.09em;
+}
+.section-head h5{
+    font-family: Roboto;
+	font-style: normal;
+	font-size: 13px;
+	line-height: 15px;
+	color: #000000;
+}
+.section-head select{
+
+    outline: none;
+    background: #FFFFFF;
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    border: none;
+    padding: 8px;
+}
+.shop-post img{
+    padding-left: 20px;
+    filter: drop-shadow(0px 8px 24px rgba(255, 107, 0, 0.25));
+    border-radius: 20px;
+    transform: translateY(-50px);
+}
+.label{
+    transform: translate(20px,-30px);
+}
+.black{
+    color:#1F2229;
+}
+.yellow{
+    color: #B0DA87;
+}
+.blue{
+    color: #2D5FD5;
+}
+.green{
+    color: #7FFF43;
+}
+.shop-post p{
+    font-family: Roboto;
+    font-weight: bold;
+}
+.add-to-cart a{
+    background: #000000;
+    border: none;
+    font-family: Bebas Neue;
+    margin: 10px 0px;
+    padding: 5px 20px;
+    outline: none;
+    color: white;
+    font-size: 1.2rem;
+    line-height: 1.4;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none; 
+}
+.add-to-cart {
+    padding-left: 55px;
+}
+.shop-post h3 span{
+    padding-left: 100px;
+}
+.shop-post h3{
+    font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 18px;
+	text-transform: uppercase;
+	color: #000000;
+}
+.rect2{
+    width: 265px;
+    height: 415px;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
+}
+
+/* about */
+.about h2{
+    font-family: Belleza;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 35px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.about p{
+    font-family: Bellefair;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.125rem;
+    line-height: 125.2%;
+    text-align: justify;
+    letter-spacing: 0.03em;
+    text-indent: 50px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.about h1 span{
+    font-family: Qwigley;
+    font-size: 500px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FF6B00;
+}
+.about h1{
+    font-family: Qwigley;
+    font-size: 500px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #EAEAEB;
+    transform: matrix(0.97, -0.36, 0.21, 0.94, 0, 0);
+}
+/* footer */
+.footer a{
+    color: #000000;
+}
+.footer-widget h2{
+    color: #FF6B00;
+    font-family: Ribeye Marrow;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 41px;
+}
+.footer-widget h2 span{
+    font-family: Ribeye Marrow;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.footer ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.footer ul li{
+    margin-bottom: 3px;
+}
+.footer ul li a{
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 40px;
+    letter-spacing: 0.03em;
+    color: #323335;
+}
+
+.footer .footer-widget h4{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #000000;
+}
+.footer .footer-widget h3{
+    width: 333px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.125rem;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.footer .footer-widget h5{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.063rem;
+    line-height: 23px;
+    text-align: right;
+    letter-spacing: 0.03em;
+    color: rgba(56, 54, 54, 0.99);
+    padding-top: 30px;
+}
+input[type=email] {
+    border: none; 
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    letter-spacing: 0.03em;
+    color: rgba(0, 0, 0, 0.76);
+    padding-top: 5px;
+}
+input[type=email]:focus{
+    outline: none;
+}
+.Line-1{
+    border: 1.5px solid #000000;
+}
+.line2{
+    border: 1px solid #000000;
+}
+#heart.red{
+    color: red;
+}
+
+
+@media (max-width: 438px) {
+    .about h1 span, .about h1{
+        font-size: 260px;
+    }
+  
+}
+/*Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) and (min-width: 439px) { 
+    .about h1 span, .about h1{
+        font-size: 260px;
+    }
+    .heart-icon{
+        left:220px;
+        top: 135px;
+    }
+    .plus-icon{
+        left:250px;
+        top: -146px;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) and (min-width: 576px){ 
+    .about h1 span, .about h1{
+        font-size: 400px;
+    }
+    .heart-icon{
+        left:220px;
+        top: 135px;
+    }
+    .plus-icon{
+        left:250px;
+        top: -146px;
+    }
+ }
+
+/*Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) and (min-width: 766px){ 
+    .heart-icon{
+        left:220px;
+        top: 135px;
+    }
+    .plus-icon{
+        left:250px;
+        top: -146px;
+    }
+ }

@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.content{
+    background: #FFFFFF;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    margin: 8%;
+}
+.login-lhs {
+    padding: 4rem 1rem 4rem 1rem;
+}
+.login-text{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 56px;
+    color: #FF6B00;
+}
+form label{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #909090;
+    text-transform: uppercase;
+}
+form label[for=forgot] a{
+    color: #FF6B00;
+    text-transform: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.form-control{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    border-color: #909090 !important;
+    border-style: solid !important;
+    border-width: 0 0 1px 0 !important;
+    padding: 0px !important;
+    height: auto;
+    border-radius: 0;
+}
+
+.form-control:focus{
+
+    color: #000000;
+    background-color: #fff;
+    border-color: #fff;
+    outline: 0;
+    box-shadow: none;
+}
+#togglePassword{
+    position: absolute;
+    right: 15px;
+    cursor: pointer;
+    color: #FF6B00;
+
+}
+.login{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    background: #FF6B00;
+    padding: 10px 50px;
+    border-radius: 0%;
+}
+.login-rhs{
+    background: url(../Group\ 48.png) no-repeat;
+    padding: 4rem 1rem;
+}
+
+.login-rhs h3{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 56px;
+    color: #FFFFFF;
+}
+.login-rhs p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.login-rhs .signup{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    border: 1.5px solid #FFFFFF;
+    background: none;
+    border-radius: 0%;
+    padding: 5px 20px;
+}
+.login-rhs .logo h1{
+    font-family: Ribeye Marrow;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 66px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+.login-rhs .logo h1 span{
+    font-size: 24px;
+    line-height: 33px;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+        <!--font family-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Ribeye+Marrow">   
+        <link rel="stylesheet" href="css/style.css">
+
+        <title>SignUp Page</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row content">
+              <div class="col-md-5 col-12 signup-lhs text-md-left text-center px-5">
+                <h3 class="mb-5">Sign Up</h3>
+                <p>Enjoy the best shopping experience
+                  on D-SHOP by making an account.</p>
+                  
+                <p>Make one for free. Don’t have an account?</p>
+                <button class="btn login mt-3" onclick="document.location='../Login/login.html'">Log In</button>
+                <div class="logo mt-5 pt-4">
+                      <h1>D<span>Shop</span></h1>
+                </div>
+              </div>
+
+              <div class="col-md-7 col-12 signup-rhs px-5">
+                <form method="POST" action="../DShop/shop.html">
+                  <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" class="form-control" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="email">Email or Phone Number</label>
+                    <input type="email" name="email" class="form-control" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="password">Password</label>
+                    <div class="input-group">
+                      <input type="password" name="password" class="form-control" id="password" required>
+                      <div class="input-group-addon">
+                        <i class="fa fa-eye-slash" id="togglePassword"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="cpassword">Confirm Password</label>
+                    <div class="input-group">
+                      <input type="password" name="cpassword" class="form-control" id="cpassword" required>
+                      <div class="input-group-addon">
+                        <i class="fa fa-eye-slash" id="ctogglePassword"></i>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="form-group form-check pt-4">
+                    <input type="checkbox" name="checkbox" class="form-check-input" id="checkbox" required>
+                    <label class="form-check-label" for="checkbox">By signing up I agree with <span>terms and conditions.</span></label>
+                  </div>
+
+                  <button class="btn signup mt-4">Sign Up</button>
+                </form>
+              </div>
+
+            </div>
+        </div>
+        <script src="js/app.js"></script>
+    </body>
+</html>
